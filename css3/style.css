@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(107, 243, 243);
+}
+.main{
+    width: 300px;
+    height: 200px;
+    background-color: azure;
+     position: relative;
+     bottom: 0px;
+    
+}
+.one{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+     position: absolute;  
+     top: 0px;
+}
+.two{
+     width: 20px;
+    height: 20px;
+    background-color: rgb(42, 99, 165);
+    /* position:relative;
+    top: 10px; */
+}
+.three{
+     width: 20px;
+    height: 20px;
+    background-color: rgb(128, 165, 42);
+}
+.four{
+     width: 20px;
+    height: 20px;
+    background-color: rgb(235, 127, 159);
+}

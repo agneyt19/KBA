@@ -1,0 +1,9 @@
+.one{
+position: relative;
+
+}
+.two{
+    position: absolute;
+    right: 0px;
+    bottom:1px
+}

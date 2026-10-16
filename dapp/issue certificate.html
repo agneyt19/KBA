@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certificate Dapp</title>
+</head>
+<body>
+
+  <table width="100%" bgcolor="GREY" cellpadding="9">
+    <tr>
+      <td align="left"><h2>Certificate Dapp</h2></td>
+      <td align="right">
+        <a href="home.html">Home</a> &nbsp;|&nbsp;
+        <a href="issue certificate.html">Issue Certificate</a>
+      </td>
+    </tr>
+  </table>
+
+  <br><br>
+<CENTER>
+
+  <table bgcolor="grey" width="50%" cellspacing="30">
+    <tr>
+      <td ></td>
+      <td>
+        <h2>Issue New Certificate</h2>
+
+        <form id="" action="newcert.htm">
+
+          Select Course *<br>
+          <select id="course" name="course" required>
+            <option value="C"> Certified Blockchain Developer</option>Certified Blockchain Associate</option>
+            <option value="C">Certified Blockchain Associate</option>
+          </select>
+          <br><br>
+
+          Certificate ID *<br>
+          <input type="text" id="certId" name="certId" placeholder="Certificate ID"  required>
+          <br><br>
+          Candidate name *<br>
+          <input type="text" id="name" name="name" placeholder="Name"  required>
+          <br><br>
+
+          Select Grade *<br>
+          <select id="grade" name="grade" required>
+            <option value="S">S</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+          </select>
+          <br><br>
+
+          Issue Date *<br>
+          <input type="date" id="date" name="date" required>
+          <br><br>
+
+          <input type="submit" value="Issue Certificate"></input>
+
+        </form>
+      </td>
+    </tr>
+  </table>
+</CENTER>

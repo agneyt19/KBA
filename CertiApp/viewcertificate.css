@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(255, 228, 168);
+}
+.b1{
+    width: 1200px;
+    height: 620px;
+    border: solid black 1px;
+    margin: auto;
+    
+}
+.b2{
+    margin-top: 150px;
+}
+
+img{
+    height: 100px;
+    width:100px;
+}
+.main{
+    text-align: center;
+}

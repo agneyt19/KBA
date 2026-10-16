@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add Book - Library Management</title>
+</head>
+<body>
+<nav>
+  <strong>Library Management</strong> |
+  <a href="login.html">Login</a> |
+  <a href="signup.html">Sign Up</a> |
+  <a href="add-book.html">Add Book</a> |
+  <a href="view-books.html">View Books</a>
+</nav>
+<hr><center><h1>Add Book</h1>
+<form action="view-books.html" >
+  <p><label>Book Title:<br><input type="text" name="title" required></label></p>
+  <p><label>Author:<br><input type="text" name="author" required></label></p>
+  <p><label>ISBN:<br><input type="text" name="isbn" required></label></p>
+  <p><label>Category:<br>
+    <select name="category">
+      <option>Fiction</option>
+      <option>Non-Fiction</option>
+      <option>Science</option>
+      <option>History</option>
+      <option>Technology</option>
+    </select></label></p>
+  <p><label>Publisher:<br><input type="text" name="publisher"></label></p>
+  <p><label>Year Published:<br><input type="number" name="year"></label></p>
+  <p><label>Number of Copies:<br><input type="number" name="copies"  value="1" required></label></p>
+  <p><label>Description:<br><textarea name="description" rows="4" cols="40"></textarea></label></p>
+  <p><button type="submit">Add Book</button> <button type="reset">Reset</button></p>
+</form></center>
+
+</body>
+</html>
